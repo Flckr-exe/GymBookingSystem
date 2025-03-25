@@ -1,0 +1,15 @@
+# Ignore node_modules and build files
+node_modules/
+dist/
+.env
+.vscode/
+.DS_Store
+package-lock.json
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore database files
+*.sqlite3
+db.sqlite3
